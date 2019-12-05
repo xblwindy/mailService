@@ -5,8 +5,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 import com.itstyle.mail.common.model.Email;
 /**
  * 邮件队列
- * 创建者 科帮网
- * 创建时间	2017年8月4日
  *
  */
 public class MailQueue {

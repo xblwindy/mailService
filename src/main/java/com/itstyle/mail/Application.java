@@ -11,8 +11,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 启动类
- * 创建者 科帮网 https://blog.52itstyle.com
- * 创建时间	2017年7月19日
  * API: http://localhost:8080/springboot_mail/swagger-ui.html
  * 
  * 启动 java -jar spring-boot-mail.jar --server.port=8886 

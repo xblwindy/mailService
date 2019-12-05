@@ -15,8 +15,6 @@ import com.itstyle.mail.common.model.Email;
 import com.itstyle.mail.service.IMailService;
 /**
  * 消费队列
- * 创建者 科帮网
- * 创建时间	2017年8月4日
  */
 @Component
 public class ConsumeMailQueue {

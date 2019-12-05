@@ -92,8 +92,8 @@ public class MailServiceImpl implements IMailService {
 		// 发送附件
 		file = ResourceUtils.getFile("classpath:static"
 				+ Constants.SF_FILE_SEPARATOR + "file"
-				+ Constants.SF_FILE_SEPARATOR + "关注科帮网获取更多源码.zip");
-		helper.addAttachment("科帮网", file);
+				+ Constants.SF_FILE_SEPARATOR + "测试");
+		helper.addAttachment("测速", file);
 		mailSender.send(message);
 	}
 
@@ -101,8 +101,7 @@ public class MailServiceImpl implements IMailService {
 	public void sendFreemarker(Email mail) throws Exception {
 		MimeMessage message = mailSender.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message, true);
-		//这里可以自定义发信名称比如：爪哇笔记
-		helper.setFrom(USER_NAME,"爪哇笔记");
+		helper.setFrom(USER_NAME,"xbltest");
 		helper.setTo(mail.getEmail());
 		helper.setSubject(mail.getSubject());
 		Map<String, Object> model = new HashMap<String, Object>();

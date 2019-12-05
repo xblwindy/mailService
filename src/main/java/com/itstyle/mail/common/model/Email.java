@@ -4,9 +4,7 @@ import java.io.Serializable;
 import java.util.HashMap;
 
 /**
- * Email封装类 
- * 创建者 科帮网 
- * 创建时间 2017年7月20日
+ * Email封装类
  *
  */
 public class Email implements Serializable {

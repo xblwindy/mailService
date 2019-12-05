@@ -12,8 +12,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 /**
  * 动态jpql/nativesql查询的实现类
- * 创建者 张志朋
- * 创建时间	2018年3月8日
  */
 @Repository
 public class DynamicQueryImpl implements DynamicQuery {

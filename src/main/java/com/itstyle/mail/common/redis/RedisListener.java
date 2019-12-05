@@ -13,8 +13,6 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.stereotype.Component;
 /**
  * 注意 扫描监听 否则无法接收消息
- * 创建者 科帮网
- * 创建时间	2017年8月13日
  *
  */
 @Component

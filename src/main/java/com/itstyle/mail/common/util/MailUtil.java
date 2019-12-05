@@ -13,8 +13,6 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 /**
  * 异步发送
- * 创建者 科帮网
- * 创建时间	2017年7月20日
  *
  */
 public class MailUtil {
